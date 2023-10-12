@@ -9,3 +9,9 @@ function toggle() {
 for (let i = 0; i < menu.length; i++) {
   menu[i].addEventListener("click", toggle);
 }
+
+function test() {
+  for (const i=0; i<10; i++) {
+    console.log(i)
+  };
+}
